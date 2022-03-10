@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-image: url("https://eskipaper.com/images/good-wallpapers-6.jpg");
+   background-size: cover;
+   font-size: 20px;
+   font-family: lucida;
+   color: white;
+}
+
+.container{
+   background-color: #f5eeb099;
+   filter: blur(0px);
+   backdrop-filter: blur(25px);
+   border: 1px white solid;
+   float: left;
+   position: relative;
+   width: 700px;
+   height: 600px;
+   border-radius: 10px;
+   margin-top: 3%;
+   left: 27%;
+}
+
+.form{
+   padding: 10px;
+   text-align: center;
+   color: white;
+   border-radius: 10px;
+}
+
+.form h1{
+   font-size: 3em;
+   margin-top: 10px;
+   color: white;
+}
+
+.form p{
+   text-align: justify;
+   font-size: 1em;
+   padding: 5%;
+   color: white;
+}
+
+.form input{
+   background-color: #b1a64499;
+   font-size: 1.5em;
+   padding: 10px;
+   font-weight: bold;
+   text-align: center;
+   border-color: #012d1c;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   max-width: 400px;
+}
+
+.form button{
+   font-size: 1.4em;
+   background-color: #5dd417;
+   border-color: #012d1c;
+   padding: 10px;
+   border-radius: 10px;
+   font-weight: bold;
+   text-align: center;
+   cursor: pointer;
+   margin-bottom: 30px;
+}
+
+.form button:hover{
+   background-color: #73b199;
+   transition: 0.5s;
+}
+
+
+.form h2{
+    font-size: 1.5em;
+    max-width: 450px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:1135px){
+   
+   .container{
+      float: none;
+      position: relative;
+      max-width: 900px;
+      border-radius: 10px;
+      margin-top: 3%;
+      margin: auto;
+      left: 0px;
+   }
+}
+
+@media (max-width:1135px){
+   
+      .form input{
+         font-size: 1em;
+      }
+   }
